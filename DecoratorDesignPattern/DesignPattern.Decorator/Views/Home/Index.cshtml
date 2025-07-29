@@ -1,0 +1,20 @@
+﻿@model DesignPattern.Decorator.DAL.Message
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post">
+    <label>Gönderen</label>
+    <input type="text" class="form-control" asp-for="Sender" />
+    <br />
+    <label>Alıcı</label>
+    <input type="text" class="form-control" asp-for="Receiver" />
+    <br />
+    <label>Konu</label>
+    <input type="text" class="form-control" asp-for="Subject" />
+    <br />
+    <label>İçerik</label>
+    <input type="text" class="form-control" asp-for="Content" />
+    <br />
+    <button class="btn btn-primary">Mesajı Gönder</button>
+</form>
