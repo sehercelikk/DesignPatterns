@@ -31,11 +31,8 @@ Bu proje, yazılım geliştirme sürecinde sıkça kullanılan **11 farklı tasa
 
 ## 🔧 Kurulum
 
-1. Bu projeyi bilgisayarınıza klonlayın:
-   ```bash
-   git clone https://github.com/kullanici-adi/design-patterns.git
-   ```
-2. Projeyi Visual Studio veya Rider ile açın.
+1. Bu projeyi bilgisayarınıza klonlayın
+2. Projeyi Visual Studio ile açın.
 3. Çözümü (solution) build edin.
 4. Context kısmında gerekli alanları doldurup migration işlemlerini yapın
 5. İlgili tasarım deseni projesini "Startup Project" olarak ayarlayın ve çalıştırın.
